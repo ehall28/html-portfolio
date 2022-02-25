@@ -146,8 +146,9 @@ footer {
 
 // Media for tablets/phones
 
-@media screen and (min-width: 910px) {
-   .navbar {
+@media screen and (min-width: 870px) {
+     
+    .navbar {
        display: flex;
        justify-content: flex-end;
        align-items: center;
@@ -173,6 +174,7 @@ footer {
 
                 &:hover {
                     background-position: left;
+                    cursor: pointer;
                 }
                               
                 a:hover {
@@ -186,7 +188,7 @@ footer {
             }          
         }
     }
-    
+
     .content {
         display: flex;
         flex-direction: column;
