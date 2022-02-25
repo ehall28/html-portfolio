@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  border-bottom: 1px pink solid;
+}
+.navbar .nav-toggle {
+  position: absolute;
+  cursor: pointer;
+  margin: 0rem 1rem;
+  right: 0;
+}
+
+.content {
+  font-family: "poppins";
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
