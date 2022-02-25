@@ -13,13 +13,13 @@
 <body>
     <div class="container">
         
-        <nav class="navbar">
-            
+<!-- Duplicated nav bar to remove collapsible menu not closing with screen size - without using js/bootstrap -->
+        <nav id="navbar-mobile">
             <input type="checkbox" id="nav-check" class="nav-checkbox">
-           
+            
             <label for="nav-check" class="nav-toggle">
-                <i class="fa-solid fa-bars menu"></i>
-                <i class="fa-solid fa-xmark cross"></i>
+                <i class="icon fa-solid fa-bars menu"></i>
+                <i class="icon fa-solid fa-xmark cross"></i>
             </label>
             
             <ul class="nav-list">
@@ -30,7 +30,16 @@
                 <li><a href="/blog.html">Blog</a></li>
                 <li><a href="">Resume</a></li>
             </ul> 
-       
+        </nav>
+        <nav id="navbar-desktop">
+            <ul class="nav-list">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/aboutme.html">About Me</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li class="active"><a href="/contact.html">Contact</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="">Resume</a></li>
+            </ul> 
         </nav>
 
         <section class="content">
