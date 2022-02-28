@@ -1,0 +1,32 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 3rem;
+  font-size: 3rem;
+  text-shadow: 2px 2px #fe4741;
+  background-image: linear-gradient(45deg, #7dc2af, #2c9db9);
+}
+.content img {
+  border-radius: 50%;
+  width: 50%;
+  border: solid #df6c4f 0.5rem;
+}
+
+@media screen and (min-width: 870px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 4rem;
+  }
+  .content img {
+    width: 20%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

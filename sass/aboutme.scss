@@ -1,0 +1,95 @@
+$primary-colour1:  #7dc2af;
+$primary-colour2: #2c9db9;
+$orange1: #df6c4f;
+
+.content {
+    height: 100%;
+    background-image: linear-gradient(45deg, $primary-colour1, $primary-colour2);
+
+    h1 {
+        margin-left: 1rem;
+        font-size: 2rem;
+        font-style: italic;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: bold;
+        margin: 0.2rem 1rem 1rem 1rem;
+    }
+
+    .side-para {
+        // margin-left: 10rem;
+    }
+
+    .img-container {
+        position: fixed;
+        margin: 3rem 0 0 1.5rem;        
+
+        img {
+            border-radius: 50%;
+            width: 10rem;
+            border: solid $orange1 0.2rem; 
+            position: absolute;
+            margin: 0 auto;
+            
+            &.koala {
+                inset: 8rem 0 0 7rem;
+
+                &:hover {
+                    z-index: 1;
+                }
+            }
+
+            &.meerkat {
+                inset: 11rem 7rem 0 0;
+
+                &:hover {
+                    z-index: 1;
+                }
+            }
+
+            &.quoll {
+                inset: 3rem 0 0 1rem;
+            }
+        }
+    }
+}
+
+// Tablet view
+@media screen and (min-width: 501px) and (max-width: 820px) {
+    .content {
+        p {
+            background-color: blue;
+        }
+
+        .img-container {
+            // height: 450px;
+            
+            img {
+                // width: 20rem;
+
+                &.koala {
+                    right: 80rem;
+                }
+
+                &.meerkat {
+                    right: 95rem;
+                }
+
+                &.quoll {
+                    right: 100rem;
+                }
+            }
+        }
+    }
+}
+
+// Desktop View
+@media screen and (min-width: 821px) {
+    .content {
+        p {
+            background-color: red;
+        }
+    }
+}
