@@ -42,6 +42,7 @@
   justify-content: center;
   background-color: #c38d9d;
   padding: 0;
+  box-shadow: 0px 2px 5px 20px #707070;
 }
 #navbar-mobile .nav-toggle {
   position: absolute;
@@ -107,12 +108,18 @@
   display: none;
 }
 
+.content {
+  height: 100%;
+  background-image: linear-gradient(45deg, #7dc2af, #2c9db9);
+}
+
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(45deg, #fe4741, #c38d9d);
   height: 15vh;
+  box-shadow: 0px -2px 5px 0px #707070;
 }
 footer .socials {
   margin: 0 1.5rem;
@@ -133,6 +140,8 @@ footer .socials:hover {
     justify-content: flex-end;
     align-items: center;
     height: 15vh;
+    box-shadow: 0px 15px 10px -15px #707070;
+    position: relative;
   }
   #navbar-desktop .nav-list {
     flex-direction: row;
