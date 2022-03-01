@@ -13,7 +13,6 @@
   top: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   transition: 0.5s;
   transition-delay: 0s;
   z-index: 1;
@@ -30,19 +29,20 @@
 }
 .slider .background-img .slider-content {
   position: relative;
-  text-align: center;
   max-width: 800px;
 }
 .slider .background-img .slider-content h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+  color: #f0f8ff;
+  text-shadow: white -7px 8px 6PX;
 }
 .slider .background-img .slider-content p {
-  color: #fe4741;
+  color: #f0f8ff;
   font-weight: 600;
-  font-size: 2rem;
-  text-shadow: black 2px 2px;
+  font-size: 1.2rem;
   padding-bottom: 1.5em;
   padding-top: 1.5rem;
+  background: rgba(0, 0, 0, 0.71);
 }
 .slider .background-img .slider-content a {
   background: rgba(109, 79, 79, 0.342);
@@ -56,7 +56,7 @@
 .slider input[type=radio] {
   z-index: 1000;
   margin: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 0.5rem;
   cursor: pointer;
   height: 2rem;
   width: 5%;
@@ -69,11 +69,18 @@
 }
 
 @media screen and (min-width: 1000px) {
+  .slider .background-img .slider-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 2000px;
+  }
   .slider .background-img .slider-content h1 {
-    font-size: 8rem;
+    font-size: 5rem;
+    padding-bottom: 8rem;
   }
   .slider .background-img .slider-content p {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   .slider .background-img .slider-content a {
     font-size: 1.5rem;

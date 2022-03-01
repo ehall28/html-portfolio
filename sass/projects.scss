@@ -1,4 +1,3 @@
-
 $secondary-colour1: #fe4741;
 
 .slider {
@@ -16,7 +15,7 @@ $secondary-colour1: #fe4741;
         top: 0;
         display: flex;
         justify-content: center;
-        align-items: center;
+        // align-items: center;
         transition: 0.5s;
         transition-delay: 0s;
         z-index: 1;
@@ -34,20 +33,23 @@ $secondary-colour1: #fe4741;
 
         .slider-content {
             position: relative;
-            text-align: center;
-            max-width: 800px;
-
+            // text-align: center;
+            max-width: 800px;      
+            
             h1 {
-                font-size: 4rem;
+                font-size: 3rem;
+                color: #f0f8ff;
+                text-shadow: white -7px 8px 6PX;
+                
             }
 
             p {
-                color: $secondary-colour1;
+                color: #f0f8ff;
                 font-weight: 600;
-                font-size: 2rem;
-                text-shadow: rgb(0, 0, 0) 2px 2px;
+                font-size: 1.2rem;
                 padding-bottom: 1.5em;
                 padding-top: 1.5rem;
+                background: rgba(0, 0, 0, 0.71);
             }
 
             a {
@@ -66,7 +68,7 @@ $secondary-colour1: #fe4741;
     input[type="radio"] {
         z-index: 1000;
         margin: 5px;
-        margin-bottom: 50px;
+        margin-bottom: 0.5rem;
         cursor: pointer;
         height: 2rem;
         width: 5%;
@@ -84,13 +86,19 @@ $secondary-colour1: #fe4741;
     .slider {
         .background-img {
             .slider-content {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                max-width: 2000px;
 
                 h1 {
-                    font-size: 8rem;
+                    font-size: 5rem;
+                    padding-bottom: 8rem;
                 }
     
                 p {
-                    font-size: 2.5rem;                
+                    font-size: 1.5rem;
+                                   
                 }
     
                 a {
