@@ -165,7 +165,7 @@ footer {
 
 // Media for tablet
 
-@media screen and (min-width: 871px) {
+@media screen and (min-width: 1000px) {
     #navbar-desktop {
         display: flex;
         flex-direction: row;
@@ -209,9 +209,4 @@ footer {
         display: none;
     
     }
-}
-
-// Desktop view
-@media screen and (min-width: 821px) {
-
 }

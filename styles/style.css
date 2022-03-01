@@ -133,7 +133,7 @@ footer .socials:hover {
   color: #d6d6d6;
 }
 
-@media screen and (min-width: 871px) {
+@media screen and (min-width: 1000px) {
   #navbar-desktop {
     display: flex;
     flex-direction: row;
