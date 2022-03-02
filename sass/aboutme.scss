@@ -92,7 +92,7 @@ $secondary-colour1: #fe4741;
 }
 
 // Tablet view
-@media screen and (min-width: 501px) and (max-width: 820px) {
+@media screen and (min-width: 501px) and (max-width: 933px) {
     .content {
         .slideshow-container {
             
@@ -105,8 +105,12 @@ $secondary-colour1: #fe4741;
 }
 
 // Desktop View
-@media screen and (min-width: 821px) {
+@media screen and (min-width: 934px) {
     .content {
+
+        p {
+            font-size: 1rem;
+        }
 
         .about-me-content {
             margin: 0 20%;
