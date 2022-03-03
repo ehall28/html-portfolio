@@ -4,10 +4,15 @@
   font-style: italic;
   text-shadow: 1px 1px #fe4741;
 }
+.content h1 span {
+  color: #fe4741;
+  text-shadow: 1px 1px black;
+}
 .content p {
   font-size: 0.8rem;
-  font-weight: 800;
+  font-weight: 900;
   margin: 0.2rem 1rem 1rem 1rem;
+  color: white;
 }
 .content .slideshow-container {
   display: flex;
@@ -88,14 +93,14 @@
 }
 @media screen and (min-width: 934px) {
   .content p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .content .about-me-content {
-    margin: 0 20%;
+    margin: 0 5%;
   }
   .content .slideshow-container .slideshow {
-    width: 30rem;
-    height: 30rem;
+    width: 25rem;
+    height: 25rem;
   }
 }
 

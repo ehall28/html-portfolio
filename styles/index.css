@@ -3,9 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
-  font-size: 3rem;
   text-shadow: 2px 2px #fe4741;
+}
+.content h1 {
+  font-size: 6rem;
 }
 .content img {
   border-radius: 50%;
@@ -13,17 +14,20 @@
   border: solid #df6c4f 0.5rem;
 }
 
-@media screen and (min-width: 1000px) {
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    font-size: 4rem;
+@media screen and (min-width: 501px) and (max-width: 933px) {
+  .container .content img {
+    max-width: 400px;
   }
+  .container .content h1 {
+    font-size: 7rem;
+  }
+}
+@media screen and (min-width: 934px) {
   .content img {
-    width: 25%;
+    max-width: 450px;
+  }
+  .content h1 {
+    font-size: 6rem;
   }
 }
 

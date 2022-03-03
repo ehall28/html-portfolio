@@ -84,7 +84,7 @@
 #navbar-mobile #nav-check:checked ~ ul.nav-list li {
   display: block;
   border-radius: 30px;
-  width: 125px;
+  width: 150px;
   padding: 0 1rem;
   text-align: center;
   background-image: linear-gradient(to right, #7dc2af, #c38d9d);

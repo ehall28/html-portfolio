@@ -40,9 +40,11 @@
   color: #f0f8ff;
   font-weight: 600;
   font-size: 1.2rem;
+  margin: 1rem;
   padding-bottom: 1.5em;
   padding-top: 1.5rem;
   background: rgba(0, 0, 0, 0.71);
+  text-shadow: #fe4741 1px 9px 6px;
 }
 .slider .background-img .slider-content a {
   background: rgba(109, 79, 79, 0.342);
@@ -70,23 +72,20 @@
 
 @media screen and (min-width: 1000px) {
   .slider .background-img .slider-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     max-width: 2000px;
   }
   .slider .background-img .slider-content h1 {
-    font-size: 5rem;
-    padding-bottom: 8rem;
+    font-size: 4rem;
+    padding-bottom: 3rem;
   }
   .slider .background-img .slider-content p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .slider .background-img .slider-content a {
     font-size: 1.5rem;
   }
   .slider input[type=radio] {
-    width: 5%;
+    width: 4%;
   }
 }
 

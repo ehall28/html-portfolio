@@ -3,16 +3,18 @@ $primary-colour2: #2c9db9;
 $secondary-colour1: #fe4741;
 $orange1: #df6c4f;
 
-// Content - middle section 
+// Content - middle section - mobile first
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
-    font-size: 3rem;
     text-shadow: 2px 2px $secondary-colour1;
+
+    h1 {
+        font-size: 6rem;
+    }
 
     img {
         border-radius: 50%;
@@ -21,20 +23,36 @@ $orange1: #df6c4f;
     }
 }
 
-// Media for desktop/tablet
+// Media for tablets
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 501px) and (max-width: 933px){
+    
+    .container {
+        
+        .content {
+            img {
+                // width: 45%
+                max-width: 400px;
+            }
+
+            h1 {
+                font-size: 7rem;
+            }
+        }
+    }
+}
+
+// Media for desktop view
+@media screen and (min-width: 934px) {
     
     .content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        font-size: 4rem;
 
         img {
-            width: 25%;
+            max-width: 450px;
+        }
+
+        h1 {
+            font-size: 6rem;
         }
     }
 }

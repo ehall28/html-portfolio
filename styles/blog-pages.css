@@ -1,17 +1,50 @@
-a {
+nav {
+  background: #c38d9d;
+  height: 15vh;
+}
+nav a {
+  display: flex;
+  justify-content: flex-end;
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
+  padding: 2rem;
 }
 
-li {
-  list-style: none;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-img {
+.content h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.content h2 {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+}
+.content p {
+  padding: 1rem;
+  font-weight: 900;
+  color: whitesmoke;
+}
+.content p:first-of-type {
+  font-size: 1.4rem;
+}
+.content img {
+  align-self: center;
   object-fit: cover;
-  width: 100%;
-  height: 30%;
+  width: 80%;
+  height: 50%;
+  padding: 1rem;
+}
+
+footer {
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 /*# sourceMappingURL=blog-pages.css.map */
