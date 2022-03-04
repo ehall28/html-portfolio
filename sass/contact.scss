@@ -5,6 +5,7 @@ $secondary-colour2: #c38d9d;
 $orange1: #df6c4f;
 $purple1: #551a8b;
 
+// Styling for contact page
 .content {
     color: pink;
     padding: 1rem;
@@ -119,10 +120,7 @@ $purple1: #551a8b;
     }    
 }
 
-
-
-// tablet screens
-
+// tablet and desktop screens
 @media screen and (min-width: 700px) {
 
     .content {

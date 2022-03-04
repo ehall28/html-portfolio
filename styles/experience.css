@@ -14,6 +14,20 @@
   flex-direction: column;
   align-items: center;
 }
+.content .work-history .coder {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px 0 red;
+}
+.content .work-history .coder p {
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 0.3rem;
+}
 .content .work-history .jb-work {
   padding: 1rem;
   margin: 1rem;

@@ -1,5 +1,6 @@
 $secondary-colour1: #fe4741;
 
+// Project slider with input type radio
 .slider {
     position: relative;
     width: 100%;
@@ -82,6 +83,7 @@ $secondary-colour1: #fe4741;
     } 
 }
 
+// For tablet and desktop views
 @media screen and (min-width: 1000px) {
     .slider {
         .background-img {

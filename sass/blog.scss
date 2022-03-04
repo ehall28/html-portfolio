@@ -1,6 +1,7 @@
 
 $secondary-colour1: #fe4741;
 
+// Styling for blog page - uses image slider 
 .slider {
     position: relative;
     width: 100%;
@@ -85,6 +86,7 @@ $secondary-colour1: #fe4741;
     } 
 }
 
+// For desktop screens
 @media screen and (min-width: 1000px) {
     .slider {
         .background-img {
