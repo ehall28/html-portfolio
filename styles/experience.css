@@ -1,0 +1,81 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.content header {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+}
+.content .work-history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .work-history .jb-work {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px 0 red;
+}
+.content .work-history .jb-work p {
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 0.3rem;
+}
+.content .work-history .jb-work li {
+  list-style: inside circle;
+  padding: 0.1rem;
+  font-weight: 700;
+  margin-right: 5rem;
+}
+.content .work-history .conservation {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px 0 red;
+}
+.content .work-history .conservation p {
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 0.3em;
+}
+.content .work-history .conservation li {
+  list-style: inside circle;
+  padding: 0.1rem;
+  font-weight: 700;
+  margin-left: 4rem;
+}
+.content .pdf {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.content .pdf i {
+  color: #ca1b1b;
+  font-size: 5rem;
+}
+.content .pdf i:hover {
+  color: rgba(202, 27, 27, 0.5);
+}
+.content .pdf h2 {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 501px) {
+  .content .work-history {
+    width: 500px;
+  }
+}
+
+/*# sourceMappingURL=experience.css.map */

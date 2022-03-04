@@ -33,7 +33,7 @@
   color: white;
 }
 .content .contact-container .form-box .contact form p input {
-  color: black;
+  color: white;
   font-weight: 900;
   width: 7rem;
   background: #0000004f;
@@ -58,10 +58,9 @@
 }
 .content .contact-container .form-box .contact form p textarea {
   width: 15rem;
-  color: black;
+  color: white;
   font-weight: 900;
   background: #0000004f;
-  text-align: center;
 }
 .content .social-links {
   padding: 1rem;
@@ -88,6 +87,12 @@
 }
 .content .social-links .github:hover {
   color: #171515;
+}
+
+@media screen and (min-width: 700px) {
+  .content .contact-container {
+    width: 600px;
+  }
 }
 
 /*# sourceMappingURL=contact.css.map */

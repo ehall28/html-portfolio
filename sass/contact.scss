@@ -43,7 +43,7 @@ $purple1: #551a8b;
                         }
 
                         input {
-                            color: black;
+                            color: rgb(255, 255, 255);
                             font-weight: 900;
                             width: 7rem;
                             background: #0000004f;
@@ -72,10 +72,9 @@ $purple1: #551a8b;
 
                         textarea {
                             width: 15rem;
-                            color: black;
+                            color: rgb(255, 255, 255);
                             font-weight: 900;
                             background: #0000004f;
-                            text-align: center;
                         }
                     }
                 }
@@ -124,19 +123,12 @@ $purple1: #551a8b;
 
 // tablet screens
 
-@media screen and (min-width: 501px) and (max-width: 820px) {
+@media screen and (min-width: 700px) {
 
     .content {
 
-        .content-container {
-
-            .form-box {
-                          
-                .contact {
-
-                }
-
-            }
+        .contact-container {
+            width: 600px;
         }
     }    
 }
